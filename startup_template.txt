@@ -1,0 +1,11 @@
+% Steps to add
+% 1. edit(fullfile(userpath, 'startup.m'))
+% 2. Copy Bold.m and Color.m to startup.m directory
+
+addpath( genpath('C:\Users\shara\openfast-toolbox') )
+
+addpath(fullfile("Bold.m"))
+addpath(fullfile("Color.m"))
+
+b = Bold();
+c = Color();
